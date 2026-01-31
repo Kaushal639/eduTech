@@ -70,7 +70,7 @@ p{
   font-size:2vw;
   font-weight:200;
 }
-@media(max-width:766px){
+@media(max-width:768px){
 
   h1 {
     font-size: 20px;
@@ -85,7 +85,7 @@ p{
     width: 95vw;
     height: fit-content;
     box-sizing: border-box;
-    margin-top:-160px;
+    margin-top:-87vw;
     margin-left:2vw;
     
     border: 2px solid #ccc;
