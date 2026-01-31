@@ -1,0 +1,191 @@
+.main-course-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 3vw;
+  height: fit-content;
+    width: 25vw;
+    padding: 1vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #e7cde6, #c9e4f32a);
+  
+  
+
+
+}
+.main-course-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.course-card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.course-image {
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.course-details #h1 h1{
+    font-size: 1.6vw;
+    font-weight: 900;
+    color: rgb(30, 63, 20);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+p{
+    font-size: 1.1vw;
+    color: #333333be;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    
+}
+.course-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5vw;
+    flex-wrap: wrap;
+}
+.price-discount-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: space-between;
+    width: 100%;
+   
+   
+}
+h5{
+    font-size: 1.3vw;
+    color: #00000073;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: end;  
+    align-items: center;
+}
+h3{
+    font-size: 1.7vw;
+    color: #200696c0;
+    font-weight: 950;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: start;  
+    align-items: center;
+    padding-bottom: 1.7vw;
+
+}
+.main-course-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 3vw;
+  height: fit-content;
+    width: 25vw;
+    padding: 1vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #e7cde6, #c9e4f32a);
+  
+  
+
+
+}
+@media(max-width:768px){
+    h3{
+    font-size: 22px;
+    color: #200696c0;
+    font-weight: 950;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: start;  
+    align-items: center;
+    padding-bottom: 1.7vw;
+
+}
+.main-course-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  height: 300px;
+    width: 95%;
+    padding: 1vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #e7cde6, #c9e4f32a);
+  
+  
+
+
+}
+.price-discount-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: space-between;
+    width: 100%;
+    gap:12px;
+   
+   
+}
+.course-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    font-size: 15px;
+    color: #00000073;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: end;  
+    align-items: center;
+}
+.course-details #h1 h1{
+    font-size: 21px;
+    font-weight: 900;
+    color: rgb(30, 63, 20);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+p{
+    font-size: 35px;
+    color: #333333be;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+
+    flex-wrap:wrap;
+    
+}
+.buy-now button{
+    height:40px;
+    width:130px;
+    border-radius:30px;
+}
+
+}

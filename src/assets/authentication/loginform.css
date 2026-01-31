@@ -1,0 +1,123 @@
+.main-login-form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(185, 145, 145, 0.13);
+    background-color: transparent;
+   background-image: url("https://images.unsplash.com/photo-1548393488-ae8f117cbc1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3MlMjBhbmQlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+background-image:cover;
+flex-wrap:wrap;
+} 
+.login-form {
+    height: 100vh;
+    width: 100%;
+    color: rgba(128, 128, 128, 0.212);
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.username, .password {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.username input, .password input {
+    width: 30vw;
+    padding: 1vw;
+    border-radius: 3vw;
+    border: 1px solid gray;
+    font-size: 1.5vw;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.login-button {
+    height: 4vw;
+    width: 60vw;
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+}
+.signup-button {
+    height: 3vw;
+    
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+
+.login-button button {
+    width: 11vw;
+    height: 5vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: 2px solid gray;
+    background-color: #73dbd3;
+    background-color: #caaf13;
+    color: rgb(88, 48, 48);
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.signup-button button {
+    width: 10vw;
+    height: cover;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: 2px solid gray;
+    background-color: #73dbd3;
+    color: rgb(88, 48, 48);
+    font-size: 1.5vw;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+@media(max-width:768px){
+    .login-button button {
+    width: 100px;
+    height: 40px;
+    padding: 1vw;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: #73dbd3;
+    background-color: #caaf13;
+    color: rgb(88, 48, 48);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:20px;
+}
+.signup-button button {
+    width: 80px;
+    height: 50px;
+    padding: 1vw;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-color: #73dbd3;
+    color: rgb(88, 48, 48);
+    font-size: 1.5vw;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top:100px;
+}
+.username input, .password input {
+    width: 180px;
+    height:40px;
+    padding: 1vw;
+    border-radius: 30%;
+    border: 1px solid gray;
+    font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+}

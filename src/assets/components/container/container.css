@@ -1,0 +1,143 @@
+.main-container{
+  height:fit-content;
+  width:100vw;
+  background-color:transparent;
+
+  position:relative;
+}
+.container {
+    width: 95vw;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-top:-18vw;
+    margin-left:2vw;
+    
+    border: 2px solid #ccc;
+    border-radius: 2vw;
+    background: linear-gradient(135deg, #8b0e38 0%, #be6529 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    color: rgba(41, 21, 114, 0.863);
+    
+  padding:0;
+  position: absolute;
+  
+}
+h1 {
+    font-size: 3vw;
+    font-weight: 900;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-card {
+    margin-top: 3vw;
+    width: 90%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  padding: 2vw;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.titel-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:fit-content;
+    width:100%;
+    background-color:rgba(224, 197, 44, 0.2);
+    border-radius:2vw;
+    padding:1vw;
+}
+h7{
+  color:rgb(14, 73, 8);
+  font-style:italic;
+  font-weight:600;
+  font-size:5vw
+}
+
+p{
+  color:rgb(4, 4, 29);
+  font-style:italic;
+  font-size:2vw;
+  font-weight:200;
+}
+@media(max-width:766px){
+
+  h1 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container {
+    width: 95vw;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-top:-160px;
+    margin-left:2vw;
+    
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #8b0e38 0%, #be6529 100%);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    color: rgba(41, 21, 114, 0.863);
+    
+  padding:0;
+  position: absolute;
+  
+}
+p{
+  color:rgb(4, 4, 29);
+  font-style:italic;
+  font-size:20px;
+  font-weight:200;
+}
+.container-card {
+    margin-top: 0;
+    width: 90%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  padding: 2vw;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+  font-size:22px;
+}
+.titel-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:fit-content;
+    width:100%;
+    background-color:rgba(224, 197, 44, 0.2);
+    border-radius:20px;
+    padding:1vw;
+}
+h7{
+  color:rgb(14, 73, 8);
+  font-style:italic;
+  font-weight:600;
+  font-size:30px;
+}
+}
