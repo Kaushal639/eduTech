@@ -1,5 +1,3 @@
-import { UseState } from 'react'
-import React from 'react'
 import Card from './assets/components/card/card.jsx' 
 import Navbar from './assets/components/navbar/navbar.jsx'   
 import Loginform from './assets/authentication/loginform.jsx'
@@ -19,27 +17,28 @@ function App() {
    const Router=createBrowserRouter([
       {
          path:"/",
-         element:[<Home></Home>,<Navbar></Navbar>]
+         element:(<><Home></Home>,<Navbar></Navbar></>)
       },
       {
          path:"/courses",
-         element:[<Coursespage></Coursespage>,<Navbar></Navbar>]
+         element:(<><Coursespage></Coursespage>,<Navbar></Navbar> </>)
       },
       {
          path:"/login",
-         element:[<Loginform></Loginform>]
+         element:(<>
+         <Loginform></Loginform></>)
       },
       {
          path:"/login/signup",
-         element:[<Signupform></Signupform>]
+         element:(<><Signupform></Signupform></>)
       },
       {
          path:"/about",
-         element:[<About></About>,<Navbar></Navbar>]
+         element:(<><About></About>,<Navbar></Navbar></>)
       },
       {
          path:"/contact",
-         element:[<Contact></Contact>,<Navbar></Navbar>]
+         element:(<><Contact></Contact>,<Navbar></Navbar></>)
       }
    ])
       
