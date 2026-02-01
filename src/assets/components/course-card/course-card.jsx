@@ -2,6 +2,9 @@ import React from 'react';
 import './course-card.css';
 
 const CourseCard = (props) => {
+    const Enrolled=()=>{
+        alert("course enrolled sucessfully")
+    }
     return (<>
         <div className="main-course-card">
             <div className="course-card">
@@ -25,7 +28,7 @@ const CourseCard = (props) => {
 
                 </div>
                 <div className="buy-now">
-                    <button>Enroll Now</button>
+                    <button onClick={Enrolled}>Enroll Now</button>
                 </div>
             </div>
             </div>
